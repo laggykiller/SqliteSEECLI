@@ -2,7 +2,7 @@
 [SQLite Encryption Extension (SEE)](https://sqlite.org/com/see.html) is a proprietary,
 paid add-on to SQLite that add RC4, AES-128 (OFB, CCM), AES-256 (OFB) support.
 Note that libraries such as SQLCipher encrypts database differently with SQLite SEE,
-hence it is impossible to open database encrypted with SQLite SEE with FOSS programs and
+hence it is impossible to open database encrypted with SQLite SEE using FOSS programs and
 libraries (e.g. SQLCipher, DB Browser for SQLite)
 
 [Xojo](https://www.xojo.com/) is a propiretary, paid cross-platform app development tool
@@ -11,6 +11,9 @@ This allows me to build a program to encrypt / decrypt SQLite SEE database.
 
 With SqliteSEECLI, you can encrypt / decrypt databases with SQLite SEE using
 AES-128 (OFB) and AES-256 (OFB). **Note that RC4 and AES-128 (CCM) are not supported**
+
+## Download
+See [releases page](https://github.com/laggykiller/SqliteSEECLI/releases)
 
 ## Usage
 ```
